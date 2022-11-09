@@ -8,25 +8,10 @@ How to Run it:
 2. Run the code : java triangleFormation.java
 
 Sample Output:
-Rishikas-MacBook-Air:Test1_Java rishika$ java triangleFormation.java 
-Enter the height of the triangle you want to make
-5
-    * 
-   * * 
-  * * * 
- * * * * 
-* * * * * 
-Rishikas-MacBook-Air:Test1_Java rishika$ java triangleFormation.java 
-Enter the height of the triangle you want to make
-8
-       * 
-      * * 
-     * * * 
-    * * * * 
-   * * * * * 
-  * * * * * * 
- * * * * * * * 
-* * * * * * * * 
+
+![Screenshot 2022-11-08 at 11 29 04 PM](https://user-images.githubusercontent.com/37467301/200739963-f79985f1-44db-42d4-a4f7-20d29f74337c.png)
+
+Sample Output:
 
 
 Test2_Angular:
