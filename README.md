@@ -23,6 +23,8 @@ How to Run it:
 The desired output runs on 
 http://localhost:4200
 
+![Screenshot 2022-11-08 at 11 41 44 PM](https://user-images.githubusercontent.com/37467301/200740409-4d20bb0c-647a-43b2-b8b1-cbad00285747.png)
 
 
 
+![Screenshot 2022-11-08 at 11 42 03 PM](https://user-images.githubusercontent.com/37467301/200740385-09e52442-6a44-4757-975e-242db0e3a06a.png)
