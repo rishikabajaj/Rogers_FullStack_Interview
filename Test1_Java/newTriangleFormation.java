@@ -3,28 +3,25 @@ package Test1_Java;
 import java.util.Scanner;
  
 // Java code to demonstrate triangle formation with given height
-public class triangleFormation
+public class newTriangleFormation
 {
     // Function to demonstrate printing triangle pattern
-    public static void printTriangle(int height)
-    {
-        for (int i=0; i<height; i++)
-        {
-            for (int j=height-i; j>1; j--)
-            {
-                // printing spaces
+    public static void printTriangle(int height){
+        System.out.println("The Pattern is");
+        for (int i = 1; i <= height; i=i+1) {
+        int printSpaces = (height - i);
+        for(int j = 0; j< height; j++) {
+            if(j < printSpaces) {
                 System.out.print(" ");
-            }
-            for (int j=0; j<=i; j++)
-            {
-                // printing stars
+            } else {
+                //print star
                 System.out.print("* ");
             }
-            // ending line after each row
-            System.out.println();
         }
+        System.out.println();
     }
-     
+}
+
     // Main Function
     public static void main(String args[])
     {
@@ -35,3 +32,4 @@ public class triangleFormation
         myObj.close();
     }
 }
+
