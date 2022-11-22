@@ -85,3 +85,6 @@ How to Run it:
 5. Using the HTML template we have on https://www.rogers.com/search?q=support&language=en&psize=10, generate a list view that uses the data extracted in 3 and transformed in 4 with the following bindings. 
 
 
+![Screenshot 2022-11-21 at 10 08 16 PM](https://user-images.githubusercontent.com/37467301/203211715-50204bab-40b8-414b-a55f-eb2dd3cace29.png)
+
+
