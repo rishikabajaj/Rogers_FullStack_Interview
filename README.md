@@ -56,14 +56,6 @@ http://localhost:4200
 
 
 ![Screenshot 2022-11-08 at 11 42 03 PM](https://user-images.githubusercontent.com/37467301/200740385-09e52442-6a44-4757-975e-242db0e3a06a.png)
-Test2_Angular:
-
-How to Run it:
-1. Build the code : ng build
-2. Run the code : ng serve
-
-The desired output runs on 
-http://localhost:4200
 
 
 Test2_Graphql:
