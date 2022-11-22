@@ -66,14 +66,23 @@ The desired output runs on
 
 
 **Steps done to return in angular code.**
+
 a. Set Environment Variables containing space id and api key
+
 b. Installed API Angular
+
 c. Modified graphql.module.ts
+
 d. Generated codegen.yml file 
+
 e. Created a new component named page-template-collection
+
 f. Added .graphql file creating fragments and query
+
 g. Ran the YAML File
+
 h. Fetched data and made all changes in page-template-collection.component.ts
+
 i. Iteratively made changes in the component to display the required result.
 
 
