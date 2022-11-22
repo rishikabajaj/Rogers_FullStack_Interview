@@ -14,10 +14,17 @@ Sample Output:
 * ----------------UPDATED ------------------------- */
 
 Used 2 more approaches to print the rectangle:
-1. Recursion 
+1. Recursion
+
+![Screenshot 2022-11-21 at 5 55 06 PM](https://user-images.githubusercontent.com/37467301/203189453-e64156c2-871f-4264-8499-3d826efee600.png)
+
 2. Using 2 For loops
 
-Also, the complexity can be further resuced by using org.apache.common.lang library. It uses only One For Loop which reduces time and space complexity. 
+
+![Screenshot 2022-11-21 at 5 55 22 PM](https://user-images.githubusercontent.com/37467301/203189467-f5555bbb-7123-417f-a2e8-75c6330b8c98.png)
+
+
+Also, the complexity can be further reduced by using org.apache.common.lang library. It uses only One For Loop which reduces time and space complexity. 
 
 Sample Code for org.apache.common:
 
