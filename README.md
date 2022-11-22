@@ -24,7 +24,7 @@ Used 2 more approaches to print the rectangle:
 ![Screenshot 2022-11-21 at 5 55 22 PM](https://user-images.githubusercontent.com/37467301/203189467-f5555bbb-7123-417f-a2e8-75c6330b8c98.png)
 
 
-Also, the complexity can be further reduced by using org.apache.common.lang library. It uses only One For Loop which reduces time and space complexity. 
+3. Also, the complexity can be further reduced by using org.apache.common.lang library. It uses only One For Loop which reduces time and space complexity. 
 
 Sample Code for org.apache.common:
 
@@ -68,6 +68,15 @@ http://localhost:4200
 
 Test2_Graphql:
 
+2. Construct an equivalent GraphQL API call that returns the equivalent entry and fields
+
+![Screenshot 2022-11-21 at 9 18 50 PM](https://user-images.githubusercontent.com/37467301/203201226-0ab0dcf3-d5f2-4a71-93b3-9abfd00fb44e.png)
+
+3. Modify the query to bring back the full collection of pageTemplate entries rather than the one entry only.
+
+![Screenshot 2022-11-21 at 10 45 35 AM](https://user-images.githubusercontent.com/37467301/203201335-7ca60efc-a110-4b59-9ee1-54a491039448.png)
+
+4. Transform the content into a line delimited JSON file where each line is a record of entry in this format:
 
 
 
