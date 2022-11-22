@@ -85,6 +85,8 @@ h. Fetched data and made all changes in page-template-collection.component.ts
 
 i. Iteratively made changes in the component to display the required result.
 
+![Screenshot 2022-11-21 at 10 35 54 PM](https://user-images.githubusercontent.com/37467301/203378042-b3609be7-059c-4d83-99d6-a44cd638b89e.png)
+
 
 ![Screenshot 2022-11-21 at 9 18 50 PM](https://user-images.githubusercontent.com/37467301/203201226-0ab0dcf3-d5f2-4a71-93b3-9abfd00fb44e.png)
 
