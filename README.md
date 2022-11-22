@@ -28,6 +28,8 @@ Used 2 more approaches to print the rectangle:
 
 Sample Code for org.apache.common:
 
+
+
 public static String printTriangle(int height) {
     StringBuilder result = new StringBuilder();
     String helperString = StringUtils.repeat(' ', height - 1) + StringUtils.repeat('*', height * 2 - 1);
