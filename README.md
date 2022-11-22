@@ -62,6 +62,10 @@ http://localhost:4200
 
 Test2_Graphql:
 
+How to Run it:
+1. Build the code : ng build
+2. Run the code : ng serve
+
 2. Construct an equivalent GraphQL API call that returns the equivalent entry and fields
 
 ![Screenshot 2022-11-21 at 9 18 50 PM](https://user-images.githubusercontent.com/37467301/203201226-0ab0dcf3-d5f2-4a71-93b3-9abfd00fb44e.png)
