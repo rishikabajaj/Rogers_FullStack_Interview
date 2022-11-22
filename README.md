@@ -1,7 +1,7 @@
 # Rogers_FullStack_Interview
 --------------------------------------------------------------------------------
 
-Test1_Java (Updated):
+**Test1_Java (Updated):**
 
 How to Run it:
 1. Build the code : javac triangleFormation.java
@@ -11,7 +11,7 @@ Sample Output:
 
 ![Screenshot 2022-11-08 at 11 29 04 PM](https://user-images.githubusercontent.com/37467301/200739963-f79985f1-44db-42d4-a4f7-20d29f74337c.png)
 
-* ----------------UPDATED ------------------------- */
+* ----------------**UPDATED **------------------------- */
 
 Used 2 more approaches to print the rectangle:
 1. Recursion
@@ -64,6 +64,19 @@ The desired output runs on
 
 2. Construct an equivalent GraphQL API call that returns the equivalent entry and fields
 
+
+**Steps done to return in angular code.**
+a. Set Environment Variables containing space id and api key
+b. Installed API Angular
+c. Modified graphql.module.ts
+d. Generated codegen.yml file 
+e. Created a new component named page-template-collection
+f. Added .graphql file creating fragments and query
+g. Ran the YAML File
+h. Fetched data and made all changes in page-template-collection.component.ts
+i. Iteratively made changes in the component to display the required result.
+
+
 ![Screenshot 2022-11-21 at 9 18 50 PM](https://user-images.githubusercontent.com/37467301/203201226-0ab0dcf3-d5f2-4a71-93b3-9abfd00fb44e.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -72,12 +85,23 @@ The desired output runs on
 
 3. Modify the query to bring back the full collection of pageTemplate entries rather than the one entry only.
 
+**Steps done to return in angular code.**
+a. Removed the limit and fetched all the enteries of the file.
+
 ![Screenshot 2022-11-21 at 10 45 35 AM](https://user-images.githubusercontent.com/37467301/203201335-7ca60efc-a110-4b59-9ee1-54a491039448.png)
+
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 
 4. Transform the content into a line delimited JSON file where each line is a record of entry in this format:
+
+**Steps done to return in angular code.**
+a. Fetched all the data in the JSONObject and stringified it to make it JSON readable. 
+b. Parsed the entire JSON to make the required changes as given in the question.
+c. Converted the JSON to string again and then used DOM Sanitizer to bypassSecurityURL and convert and encoded the data to make it file readable.
+d. Added a button in the HTML to click and download the file with the changes.
 
 
 ![Screenshot 2022-11-21 at 9 35 24 PM](https://user-images.githubusercontent.com/37467301/203207229-49df12ca-842a-4ee5-94e2-2c9f0420b8c8.png)
@@ -90,6 +114,9 @@ The desired output runs on
 
 5. Using the HTML template we have on https://www.rogers.com/search?q=support&language=en&psize=10, generate a list view that uses the data extracted in 3 and transformed in 4 with the following bindings. 
 
+**Steps done to return in angular code.**
+a. Made changes in the html code to convert it into the desirable format
+
 
 ![Screenshot 2022-11-21 at 10 08 16 PM](https://user-images.githubusercontent.com/37467301/203211715-50204bab-40b8-414b-a55f-eb2dd3cace29.png)
 
@@ -98,4 +125,3 @@ The link leads to the absolute paths as shown in the figure below:
 ![Screenshot 2022-11-21 at 10 10 07 PM](https://user-images.githubusercontent.com/37467301/203211910-da7315a4-30c1-486f-b304-e5aa0d9e159e.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
-
