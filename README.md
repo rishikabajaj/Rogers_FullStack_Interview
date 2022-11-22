@@ -86,6 +86,7 @@ i. Iteratively made changes in the component to display the required result.
 3. Modify the query to bring back the full collection of pageTemplate entries rather than the one entry only.
 
 **Steps done to return in angular code.**
+
 a. Removed the limit and fetched all the enteries of the file.
 
 ![Screenshot 2022-11-21 at 10 45 35 AM](https://user-images.githubusercontent.com/37467301/203201335-7ca60efc-a110-4b59-9ee1-54a491039448.png)
@@ -98,9 +99,13 @@ a. Removed the limit and fetched all the enteries of the file.
 4. Transform the content into a line delimited JSON file where each line is a record of entry in this format:
 
 **Steps done to return in angular code.**
+
 a. Fetched all the data in the JSONObject and stringified it to make it JSON readable. 
+
 b. Parsed the entire JSON to make the required changes as given in the question.
+
 c. Converted the JSON to string again and then used DOM Sanitizer to bypassSecurityURL and convert and encoded the data to make it file readable.
+
 d. Added a button in the HTML to click and download the file with the changes.
 
 
@@ -115,6 +120,7 @@ d. Added a button in the HTML to click and download the file with the changes.
 5. Using the HTML template we have on https://www.rogers.com/search?q=support&language=en&psize=10, generate a list view that uses the data extracted in 3 and transformed in 4 with the following bindings. 
 
 **Steps done to return in angular code.**
+
 a. Made changes in the html code to convert it into the desirable format
 
 
